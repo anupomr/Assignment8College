@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="AnupomGuneetAsgn7EAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="AnupomGuneetServicesWeb.war" deploy-path="/" handle="module:/resource/AnupomGuneetServicesWeb/AnupomGuneetServicesWeb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AnupomGuneetDisplayWeb.war" deploy-path="/" handle="module:/resource/AnupomGuneetDisplayWeb/AnupomGuneetDisplayWeb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AnupomGuneetEntities.jar" deploy-path="/lib" handle="module:/resource/AnupomGuneetEntities/AnupomGuneetEntities">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
